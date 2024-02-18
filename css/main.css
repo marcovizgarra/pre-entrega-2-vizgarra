@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Agency FB Condensed';
+    src: url(../assets/font/agency-fb-condensed-bold.otf);
+}
+
+* {
+    text-transform: uppercase;
+    font-family: 'Agency FB Condensed';
+    letter-spacing: 2px;
+}
+
+/* NAVBAR [inicio] */
+.logo-navbar {
+    width: 400px;
+    height: auto;
+}
+
+.nav-item {
+    margin: 4px;
+}
+
+.nav-item:hover {
+    margin: 4px;
+    background-color: white;
+    transition: .5s;
+}
+
+.nav-item a:hover {
+    color: black;
+    transition: .5s;
+}
+
+.dropdown:hover:focus{
+    color: black;
+}
+
+.nav-item a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* NAVBAR [fin] */
