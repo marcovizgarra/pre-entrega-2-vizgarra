@@ -40,3 +40,22 @@
 }
 
 /* NAVBAR [fin] */
+
+#carouselExampleDark {
+    margin: auto;
+    margin-top: 20px;
+    width: 70vw;
+    height: auto;
+}
+
+.carousel-item h5 {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+}
+
+.carousel-item p {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+}
