@@ -3,6 +3,11 @@
     src: url(../assets/font/agency-fb-condensed-bold.otf);
 }
 
+@font-face {
+    font-family: 'Oswald Ligth';
+    src: url(../assets/font/oswald-light.ttf);
+}
+
 * {
     text-transform: uppercase;
     font-family: 'Agency FB Condensed';
@@ -19,19 +24,9 @@
     margin: 4px;
 }
 
-.nav-item:hover {
-    margin: 4px;
-    background-color: white;
-    transition: .5s;
-}
-
 .nav-item a:hover {
-    color: black;
-    transition: .5s;
-}
-
-.dropdown:hover:focus{
-    color: black;
+    color: rgb(236, 236, 42);
+    transition: .8s;
 }
 
 .nav-item a {
@@ -39,13 +34,202 @@
     font-weight: bold;
 }
 
+
+.slogan {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.slogan h1 {
+    color:  rgb(236, 236, 42);
+    font-size: 24px;
+    letter-spacing: 20px;
+}
+
 /* NAVBAR [fin] */
 
+/* MAIN - HOME PAGE [inicio]*/
+
+.container {  
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    grid-auto-flow: row;
+    grid-template-areas:
+      "slide-discliplinas slide-discliplinas instagram-post"
+      "resumen-disciplinas resumen-disciplinas instagram-post"
+      "resumen-disciplinas resumen-disciplinas instagram-post";
+    
+    margin-top: 25px;
+  }
+  
+.slide-discliplinas { 
+    grid-area: slide-discliplinas;
+    height: 474px;
+}
+
 #carouselExampleDark {
-    margin: auto;
-    margin-top: 20px;
-    width: 70vw;
-    height: auto;
+    width: 100%;
+}
+
+.carousel-item h5 {
+    font-size: 38px;
+    letter-spacing: 15px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+}
+
+.carousel-item p {
+    font-size: 20px;
+    font-family: 'Oswald Ligth';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.instagram-post {
+    grid-area: instagram-post;
+
+    margin-left: 30px; 
+}
+
+.instagram-post aside {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 0, 0.459);
+}
+
+.instagram-post iframe {
+    font-size: 15px;
+    margin: 10px;
+    width: 400px;
+    height: 500px; 
+}
+
+.resumen-disciplinas {
+    grid-area: resumen-disciplinas;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.prueba h2 {
+    color: rgb(240, 229, 217);
+    letter-spacing: 15px;
+    margin-bottom: 25px;
+}
+
+.prueba {
+    background: linear-gradient(to bottom
+        , rgba(0, 0, 0, 0.884)
+        , rgba(0, 0, 0, 0.548))
+        , url(/assets/img/crossfit-medicine-ball.jpg
+        );
+        
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+}
+
+.prueba p {
+    width: 600px;
+    font-size: 18px;
+}
+
+.prueba-2 {
+    background: linear-gradient(to bottom
+        , rgba(0, 0, 0, 0.884)
+        , rgba(0, 0, 0, 0.548))
+        , url(/assets/img/calistenia.jpg);
+        
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+}
+
+.prueba-2 p {
+    width: 600px;
+    font-size: 18px;
+}
+
+.prueba-3 {
+    background: linear-gradient(to bottom
+        , rgba(0, 0, 0, 0.884)
+        , rgba(0, 0, 0, 0.548))
+        , url(/assets/img/cuerdas-funcional.jpg);
+        
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+}
+
+.prueba-3 p {
+    width: 600px;
+    font-size: 18px;
+}
+
+
+
+/* MAIN - HOME PAGE [fin]*/
+
+/* 
+.container-main {
+    align-items: stretch;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgba(41, 41, 41, 0.5);
+}
+
+.instagram-slide {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 0, 0.459);
+}
+
+.instagram-post iframe {
+    font-size: 15px;
+    margin: 10px;
+    width: 400px;
+    height: 500px; 
+}
+
+#carouselExampleDark {
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 1000px;
+    height: 550px;
 }
 
 .carousel-item h5 {
@@ -59,3 +243,4 @@
     color: white;
     background-color: rgba(0, 0, 0, 0.363);
 }
+*/
