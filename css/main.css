@@ -84,9 +84,17 @@
 
 
 /* PUBLICACIONES INSTAGRAM [inicio]*/
-.instagram-logo-aside {
-    width: 200px;
-    margin: 20px;
+.enlace-ig img {
+    padding-bottom: 9px;
+    width: 30px;
+}
+
+.enlace-ig {
+    justify-content: center;
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(255, 255, 0, 0.849);
 }
 
 .instagram-slide {
