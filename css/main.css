@@ -50,47 +50,41 @@
 
 /* NAVBAR [fin] */
 
-/* MAIN - HOME PAGE [inicio]*/
 
+/* CONTANIER HOME PAGE [incio]*/
 .container {  
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(3, 2fr);
+    justify-items: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-auto-flow: row;
     grid-template-areas:
-      "slide-discliplinas slide-discliplinas instagram-post"
-      "resumen-disciplinas resumen-disciplinas instagram-post"
-      "resumen-disciplinas resumen-disciplinas instagram-post";
-    
+      "slide-disciplinas slide-disciplinas instagram-post"
+      "crossfit-resumen crossfit-resumen instagram-post"
+      "calistenia-resumen calistenia-resumen instagram-post"
+      "funcional-resumen funcional-resumen instagram-post";
+
     margin-top: 25px;
-  }
-  
-.slide-discliplinas { 
-    grid-area: slide-discliplinas;
-    height: 474px;
 }
 
-#carouselExampleDark {
-    width: 100%;
+/* CONTANIER HOME PAGE [fin]*/
+
+
+/* PUBLICACIONES INSTAGRAM [inicio]*/
+.instagram-logo-aside {
+    width: 200px;
+    margin: 20px;
 }
 
-.carousel-item h5 {
-    font-size: 38px;
-    letter-spacing: 15px;
-    background-color: rgba(0, 0, 0, 0.575);
-    color: white;
-}
-
-.carousel-item p {
-    font-size: 20px;
-    font-family: 'Oswald Ligth';
-    color: white;
-    background-color: rgba(0, 0, 0, 0.363);
+.instagram-slide {
+    background-color: black;
+    display: flex;
+    align-items: center;
 }
 
 .instagram-post {
-    grid-area: instagram-post;
-
+    grid-area: instagram-post; 
+    
     margin-left: 30px; 
 }
 
@@ -110,32 +104,52 @@
     height: 500px; 
 }
 
-.resumen-disciplinas {
-    grid-area: resumen-disciplinas;
+/* PUBLICACIONES INSTAGRAM [fin]*/
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: justify;
+
+/* CAROUSEL DE IMAGENES [inicio]*/
+.slide-disciplinas {
+    grid-area: slide-disciplinas; 
 }
 
-.prueba h2 {
-    color: rgb(240, 229, 217);
+#carouselExampleDark {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.carousel-item h5 {
+    font-size: 38px;
     letter-spacing: 15px;
-    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
 }
 
-.prueba {
-    background: linear-gradient(to bottom
-        , rgba(0, 0, 0, 0.884)
-        , rgba(0, 0, 0, 0.548))
-        , url(/assets/img/crossfit-medicine-ball.jpg
-        );
-        
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+.carousel-item p {
+    font-size: 20px;
+    font-family: 'Oswald Ligth';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+/* CAROUSEL DE IMAGENES [inicio]*/
+
+
+/*CONTENIDO PRINCIPAL HOME [incio]*/    
+.crossfit-resumen {
+    grid-area: crossfit-resumen; 
+}
+  
+.calistenia-resumen {
+    grid-area: calistenia-resumen; 
+}
+  
+
+.funcional-resumen {
+     grid-area: funcional-resumen; 
+}
+
+.resumen-disciplina {
+    margin-top: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -145,102 +159,85 @@
     height: 800px;
 }
 
-.prueba p {
+.resumen-disciplina p {
     width: 600px;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Oswald Ligth';
+    text-align: justify;
 }
 
-.prueba-2 {
+.resumen-disciplina h2 {
+    color: rgb(240, 229, 217);
+    font-size: 45px;
+    letter-spacing: 20px;
+    margin-bottom: 25px;
+    color: yellow;
+}
+
+.crossfit-resumen {
     background: linear-gradient(to bottom
-        , rgba(0, 0, 0, 0.884)
-        , rgba(0, 0, 0, 0.548))
+        , rgba(0, 0, 0, 0.966)
+        , rgba(0, 0, 0, 0.397))
+        , url(/assets/img/crossfit-medicine-ball.jpg
+        );
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.calistenia-resumen {
+    background: linear-gradient(to bottom
+        , rgba(0, 0, 0, 0.966)
+        , rgba(0, 0, 0, 0.397))
         , url(/assets/img/calistenia.jpg);
         
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-    height: 800px;
 }
 
-.prueba-2 p {
-    width: 600px;
-    font-size: 18px;
-}
-
-.prueba-3 {
+.funcional-resumen {
     background: linear-gradient(to bottom
-        , rgba(0, 0, 0, 0.884)
-        , rgba(0, 0, 0, 0.548))
+        , rgba(0, 0, 0, 0.966)
+        , rgba(0, 0, 0, 0.397))
         , url(/assets/img/cuerdas-funcional.jpg);
         
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    border-radius: 10px;
+}
+
+/*CONTENIDO PRINCIPAL HOME [fin]*/
+
+
+/* FOOTER [inicio]*/
+.footer-container {
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    width: 800px;
-    height: 800px;
-}
-
-.prueba-3 p {
-    width: 600px;
-    font-size: 18px;
-}
-
-
-
-/* MAIN - HOME PAGE [fin]*/
-
-/* 
-.container-main {
-    align-items: stretch;
-    flex-direction: row-reverse;
-    justify-content: center;
-    padding-top: 20px;
-    background-color: rgba(41, 41, 41, 0.5);
-}
-
-.instagram-slide {
-    display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: rgba(255, 255, 0, 0.459);
+    background-color: black;
 }
 
-.instagram-post iframe {
-    font-size: 15px;
-    margin: 10px;
-    width: 400px;
-    height: 500px; 
+.footer-container .slogan-footer {
+    width: 300px;
 }
 
-#carouselExampleDark {
-    margin-left: 30px;
-    margin-right: 20px;
-    width: 1000px;
-    height: 550px;
+.footer-container .icono-instagram-footer {
+    width: 20px;
 }
 
-.carousel-item h5 {
-    font-size: 40px;
-    background-color: rgba(0, 0, 0, 0.575);
+.footer-container .volver-inicio {
+    margin-top: 10px;
+    text-decoration: none;
     color: white;
+    font-family: 'Oswald Ligth';
 }
 
-.carousel-item p {
-    font-size: 30px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.363);
+.footer-container .volver-inicio:hover {
+    color: yellow;
 }
-*/
+
+/* FOOTER [fin]*/
