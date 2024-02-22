@@ -57,12 +57,13 @@
 
 /* CONTANIER HOME PAGE [incio]*/
 
-.main-home-page {
+main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.918)
     ,rgba(0, 0, 0, 0.829))    
     ,url(/assets/img/textura-fondo-home.jpg);
     background-position: top;
+    padding-bottom: 40px;
 }
 
 .container {  
@@ -193,6 +194,9 @@
 .resumen-disciplina {
     margin-top: 20px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(163, 153, 8);
+    border-width: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,7 +252,6 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    margin-bottom: 20px;
 }
 
 /*CONTENIDO PRINCIPAL HOME [fin]*/
@@ -261,6 +264,7 @@
     align-items: center;
     flex-direction: column;
     background-color: black;
+    margin-top: 20px;
 }
 
 .footer-container .slogan-footer {
@@ -285,24 +289,119 @@
 /* FOOTER [fin]*/
 
 /* PAGINA HORARIOS [inicio]*/
-.container-horarios {
+
+.main-horarios {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px ;
+    padding-top: 20px;
+}
 
+.main-horarios h1 {
+    letter-spacing: 20px;
+    font-size: 40px;
+}
+
+.container-horarios {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px ;
+    border-radius: 10px;
+    border-color: rgb(163, 153, 8);
+    border-width: 2px;
+    border-style: solid;
+    width: 1000px;
+    height: 550px;
+}
+
+.container-horarios h2 {
+    margin: 70px 0;
+    color: yellow;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+.container-horarios ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.container-horarios h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    letter-spacing: 7px;
+    font-family: 'Oswald Ligth';
+}
+
+.container-horarios ul li {
+    list-style-type: none;
+    font-family: 'Oswald Ligth';
+    font-size: 22px;
+}
+
+.horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sabado {
+    padding-left: 100px;
+}
+
+.horario-crossfit {
     background: linear-gradient(to bottom
-    ,rgba(0, 0, 0, 0.89)
-    ,rgba(0, 0, 0, 0.281))
-    ,url(/assets/img/crossfit.jpg);
+    ,rgba(0, 0, 0, 0.945)
+    ,rgba(0, 0, 0, 0.432))
+    ,url(/assets/img/horario-crossfit.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
-.horarios-crossfit {
-    display: flex;
-    flex-direction: row;
+.horario-funcional {
+    background: linear-gradient(to bottom
+    ,rgba(0, 0, 0, 0.945)
+    ,rgba(0, 0, 0, 0.432))
+    ,url(/assets/img/horario-funcional.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.horario-calistenia {
+    background: linear-gradient(to bottom
+    ,rgba(0, 0, 0, 0.945)
+    ,rgba(0, 0, 0, 0.432))
+    ,url(/assets/img/horario-calistenia.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.horario-olimpico {
+    background: linear-gradient(to bottom
+    ,rgba(0, 0, 0, 0.945)
+    ,rgba(0, 0, 0, 0.432))
+    ,url(/assets/img/horario-olimpico.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.horario-adultos {
+    background: linear-gradient(to bottom
+    ,rgba(0, 0, 0, 0.945)
+    ,rgba(0, 0, 0, 0.432))
+    ,url(/assets/img/horario-adultos.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 /* PAGINA HORARIOS [fin]*/

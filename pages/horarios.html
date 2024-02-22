@@ -11,7 +11,7 @@
       <!-- Barra de navegación [inicio]--> 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/assets/img/logo-completo.png" class="logo-navbar" alt="logo-navbar"></a>
+      <a class="navbar-brand" href="/index.html"><img src="/assets/img/logo-completo.png" class="logo-navbar" alt="logo-navbar"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,14 +45,15 @@
   </header> 
   <!-- Barra de navegación [fin]-->
   
-  <main>
-    <div class="container-horarios">
-        <h1>Nuestros horarios</h1>
+  <!-- Contenido principal [inicio] -->
+  <main class="main-horarios">
+    <h1>Horarios</h1>
+    <div class="container-horarios horario-crossfit">
         <h2>Crossfit</h2>
-        <div class="horarios-crossfit">
-            <div class="crossfit-lav">
+        <div class="horarios">
+            <div class="lav">
                 <ul>
-                    <li>Lunes a viernes</li>
+                    <li><h3>Lunes a viernes</h3></li>
                     <li>08:00 a 09:00</li>
                     <li>10:00 a 11:00</li>
                     <li>13:30 a 14:30</li>
@@ -63,18 +64,89 @@
                 </ul>
             </div>
     
-            <div class="crossfit-sab">
+            <div class="sabado">
                 <ul>
-                    <li>Sábados</li>
+                    <li><h3>Sábados</h3></li>
                     <li>10:00 a 11:00</li>
                     <li>13:00 a 14:00</li>
                 </ul>
             </div>
         </div>
-
     </div>
-  </main>
 
+      <div class="container-horarios horario-funcional">
+          <h2>Funcional</h2>
+          <div class="horarios">
+              <div class="lav">
+                  <ul>
+                      <li>Lunes a viernes</li>
+                      <li>09:00 a 10:00</li>
+                      <li>16:00 a 17:00</li>
+                      <li>20:00 a 21:00</li>
+
+                  </ul>
+              </div>
+      
+              <div class="sabado">
+                  <ul>
+                      <li>Sábados</li>
+                      <li>11:00 a 12:00</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="container-horarios horario-calistenia">
+        <h2>Calistenia</h2>
+        <div class="horarios">
+            <div class="lav">
+                <ul>
+                    <li>Lunes, miércoles y viernes</li>
+                    <li>19:00 a 20:00</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container-horarios horario-olimpico">
+      <h2>Levantamiento Olímpico</h2>
+      <div class="horarios">
+          <div class="lav">
+              <ul>
+                  <li>Martes y jueves</li>
+                  <li>18:00 a 19:30</li>
+              </ul>
+          </div>
+      </div>
+      </div>
+  </div>
+
+  <div class="container-horarios horario-adultos">
+    <h2>Gimnasia para adultos</h2>
+    <div class="horarios">
+        <div class="lav">
+            <ul>
+                <li>Martes y jueves</li>
+                <li>09:00 a 10:00</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+  </main>
+  <!-- Contenido principal [fin] -->
+
+  <!-- Footer [inicio] -->
+  <footer>
+    <div class="footer-container">
+      <img class="slogan-footer" src="/assets/img/moonrock-slogan.png" alt="slogan-footer">
+      <a href="https://www.instagram.com/basemoonrock/" target="_blank"><img class="icono-instagram-footer" src="/assets/img/instagram-icon.png" alt="instagram-icono-footer"></a>
+      <a href="#" class="volver-inicio">Volver al inicio</a>
+      <br>
+    </div>
+  </footer>
+  <!-- Footer [fin] -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
