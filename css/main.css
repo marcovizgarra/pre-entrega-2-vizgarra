@@ -112,7 +112,7 @@ main {
 
 .instagram-post h2 {
     letter-spacing: 10px;
-    font-size: 38px;
+    font-size: 42px;
 }
 
 .instagram-post aside {
@@ -313,7 +313,7 @@ main {
 
 .main-horarios h1 {
     letter-spacing: 20px;
-    font-size: 40px;
+    font-size: 50px;
     margin: auto;
 }
 
@@ -493,6 +493,7 @@ form label, p {
 .container-pagina-inscripcion h1 {
     padding-top: 20px;
     letter-spacing: 15px;
+    font-size: 50px;
 }
 
 .container-pagina-inscripcion p {
@@ -535,3 +536,38 @@ form label, p {
 }
 
 /* PÁGINA DE INSCRIPCIÓN [fin]*/
+
+/* TÉRMINOS Y CONDICIONES [inicio]*/
+.main-tyc {
+    display: flex;
+    justify-content: center;
+}
+
+.container-tyc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    width: 1200px;
+    text-align: justify;   
+}
+
+.container-tyc h1 {
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+.container-tyc h2 {
+    padding-top: 30px;
+    letter-spacing: 5px;
+    color: yellow;
+    font-size: 44px;
+}
+
+.container-tyc h3 {
+    padding-top: 30px;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+/* TÉRMINOS Y CONDICIONES [fin]*/
