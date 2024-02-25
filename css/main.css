@@ -441,7 +441,7 @@ main {
     flex-direction: column;
 }
 
-form label {
+form label, p {
     margin-top: 25px;
 }
 
@@ -464,3 +464,74 @@ form label, p {
 }
 
 /* FORMULARIO DE CONTACTO [fin]*/
+
+/* PÁGINA DE INSCRIPCIÓN [inicio]*/
+.main-inscripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pagina-inscripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+}
+
+.inscribirse {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-inscribirse {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-pagina-inscripcion h1 {
+    padding-top: 20px;
+    letter-spacing: 15px;
+}
+
+.container-pagina-inscripcion p {
+    text-align: justify;
+}
+
+.container-pagina-inscripcion p a {
+    text-decoration: none;
+    font-family: 'Oswald Light';
+}
+
+.container-pagina-inscripcion p a:hover {
+    color: yellow;
+}
+
+.imagen-inscripcion img {
+    width: 900px;
+}
+
+.inscribirse h2 {
+    letter-spacing: 5px;
+    font-size: 35px;
+    background-color: black;
+}
+
+#boton-inscribirse {
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+#boton-inscribirse:hover {
+    background-color: black;
+    color: yellow;
+    font-size: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+}
+
+/* PÁGINA DE INSCRIPCIÓN [fin]*/
