@@ -582,10 +582,18 @@ form label, p {
     }
 
     .logo-navbar {
-        width: 38vw;
-        margin-right: 20vw;
+        width: 55vw;
+        margin-right: 13vw;
     }
 
+    .collapse ul li a {
+        font-size: 3.5vw;
+    }
+
+    .slogan h1 {
+        margin-top: 1vw;
+        font-size: 3.5vw;
+    }
     /*Navbar [fin]*/
 
     /*Home page [incio]*/
@@ -644,14 +652,22 @@ form label, p {
 @media only screen and (max-width: 426px) {
     /*Navbar [incio]*/
     .logo-navbar {
-        width: 55vw;
-        margin-right: 5.5vw;
+        width: 65vw;
+        margin-right: 4vw;
     }
 
     .instagram-post {
         display: none;
     }
 
+    .collapse ul li a {
+        font-size: 5vw;
+    }
+
+    .slogan h1 {
+        margin-top: 1vw;
+        letter-spacing: 2vw;
+    }
     /*Navbar [fin]*/
 
     /*Home page [incio]*/
