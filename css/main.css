@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'Oswald Ligth';
+    font-family: 'Oswald Light';
     src: url(../assets/font/oswald-light.ttf);
 }
 
@@ -59,8 +59,8 @@
 
 main {
     background: linear-gradient(to bottom
-    ,rgba(0, 0, 0, 0.918)
-    ,rgba(0, 0, 0, 0.829))    
+    ,rgba(0, 0, 0, 0.829)
+    ,rgba(0, 0, 0, 0.884))    
     ,url(/assets/img/textura-fondo-home.jpg);
     background-position: top;
     padding-bottom: 40px;
@@ -169,7 +169,7 @@ main {
 
 .carousel-item p {
     font-size: 20px;
-    font-family: 'Oswald Ligth';
+    font-family: 'Oswald Light';
     color: white;
     background-color: rgba(0, 0, 0, 0.363);
 }
@@ -208,7 +208,7 @@ main {
 .resumen-disciplina p {
     width: 600px;
     font-size: 20px;
-    font-family: 'Oswald Ligth';
+    font-family: 'Oswald Light';
     text-align: justify;
 }
 
@@ -279,7 +279,7 @@ main {
     padding-top: 10px;
     text-decoration: none;
     color: white;
-    font-family: 'Oswald Ligth';
+    font-family: 'Oswald Light';
 }
 
 .footer-container .volver-inicio:hover {
@@ -335,12 +335,12 @@ main {
     font-size: 25px;
     padding-bottom: 20px;
     letter-spacing: 7px;
-    font-family: 'Oswald Ligth';
+    font-family: 'Oswald Light';
 }
 
 .container-horarios ul li {
     list-style-type: none;
-    font-family: 'Oswald Ligth';
+    font-family: 'Oswald Light';
     font-size: 22px;
 }
 
@@ -405,3 +405,47 @@ main {
 }
 
 /* PAGINA HORARIOS [fin]*/
+
+/* FORMULARIO DE CONTACTO [inicio]*/
+.contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto img {
+    width: 900px;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+
+.formulario-contacto {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 25px;
+}
+
+.titulo-furmulario {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.titulo-furmulario h1 {
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+
+form label, input, textarea, p {
+    font-family: 'Oswald Light';
+}
+
+form label, p {
+    font-size: 25px;
+}
+
+/* FORMULARIO DE CONTACTO [fin]*/
