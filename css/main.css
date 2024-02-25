@@ -61,7 +61,7 @@ main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.829)
     ,rgba(0, 0, 0, 0.884))    
-    ,url(/assets/img/textura-fondo-home.jpg);
+    ,url(../assets/img/textura-fondo-home.jpg);
     background-position: top;
     padding-bottom: 40px;
 }
@@ -229,7 +229,7 @@ main {
     background: linear-gradient(to bottom
         , rgba(0, 0, 0, 0.966)
         , rgba(0, 0, 0, 0.397))
-        , url(/assets/img/crossfit-medicine-ball.jpg);
+        , url(../assets/img/crossfit-medicine-ball.jpg);
 
     background-repeat: no-repeat;
     background-position: top;
@@ -240,7 +240,7 @@ main {
     background: linear-gradient(to bottom
         , rgba(0, 0, 0, 0.966)
         , rgba(0, 0, 0, 0.397))
-        , url(/assets/img/calistenia.jpg);
+        , url(../assets/img/calistenia.jpg);
         
     background-repeat: no-repeat;
     background-position: top;
@@ -252,7 +252,7 @@ main {
     background: linear-gradient(to bottom
         , rgba(0, 0, 0, 0.966)
         , rgba(0, 0, 0, 0.397))
-        , url(/assets/img/cuerdas-funcional.jpg);
+        , url(../assets/img/cuerdas-funcional.jpg);
         
     background-repeat: no-repeat;
     background-position: top;
@@ -373,7 +373,7 @@ main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.945)
     ,rgba(0, 0, 0, 0.432))
-    ,url(/assets/img/horario-crossfit.jpg);
+    ,url(../assets/img/horario-crossfit.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -383,7 +383,7 @@ main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.945)
     ,rgba(0, 0, 0, 0.432))
-    ,url(/assets/img/horario-funcional.webp);
+    ,url(../assets/img/horario-funcional.webp);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -393,7 +393,7 @@ main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.945)
     ,rgba(0, 0, 0, 0.432))
-    ,url(/assets/img/horario-calistenia.jpg);
+    ,url(../assets/img/horario-calistenia.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -403,7 +403,7 @@ main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.945)
     ,rgba(0, 0, 0, 0.432))
-    ,url(/assets/img/horario-olimpico.jpg);
+    ,url(../assets/img/horario-olimpico.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -413,7 +413,7 @@ main {
     background: linear-gradient(to bottom
     ,rgba(0, 0, 0, 0.945)
     ,rgba(0, 0, 0, 0.432))
-    ,url(/assets/img/horario-adultos.jpeg);
+    ,url(../assets/img/horario-adultos.jpeg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
