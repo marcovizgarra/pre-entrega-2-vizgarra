@@ -676,7 +676,7 @@ form label, p {
 @media only screen and (max-width: 425px) {
     /*Navbar [incio]*/
     .logo-navbar {
-        width: 70vw;
+        width: 65vw;
         margin-right: 4vw;
     }
 
