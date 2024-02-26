@@ -329,14 +329,14 @@ main {
     border-color: rgb(163, 153, 8);
     border-width: 0.13vw;
     border-style: solid;
-    width: 1000px;
-    height: 550px;
+    width: 52.1vw;
+    height: 67.7vh;
 }
 
 .container-horarios h2 {
     margin: 70px 0;
     color: yellow;
-    letter-spacing: 15px;
+    letter-spacing: 1.2vw;
     font-size: 3vw;
 }
 
@@ -348,16 +348,16 @@ main {
 }
 
 .container-horarios h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
-    letter-spacing: 7px;
+    font-size: 1.5vw;
+    padding-bottom: 1.2vw;
+    letter-spacing: .4vw;
     font-family: 'Oswald Light';
 }
 
 .container-horarios ul li {
     list-style-type: none;
     font-family: 'Oswald Light';
-    font-size: 22px;
+    font-size: 1.3vw;
 }
 
 .horarios {
@@ -367,7 +367,7 @@ main {
 }
 
 .sabado {
-    padding-left: 100px;
+    padding-left: 5.2vw;
 }
 
 .horario-crossfit {
@@ -575,7 +575,7 @@ form label, p {
 /* TÉRMINOS Y CONDICIONES [fin]*/
 
 /* MEDIA QUERY*/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
     
     /*Navbar [inicio]*/
     .navbar .container-fluid {
@@ -648,12 +648,35 @@ form label, p {
         margin-bottom: 2vw;
     }
     /*Footer [fin]*/
+
+    /*Horarios [inicio]*/
+    .container-horarios h2 {
+        margin: 70px 0;
+        color: yellow;
+        letter-spacing: 2vw;
+        font-size: 5vw;
+    }  
+   
+    .container-horarios h3 {
+        font-size: 3vw;
+        padding-bottom: 1.2vw;
+        letter-spacing: .4vw;
+        font-family: 'Oswald Light';
+    }
+    
+    .container-horarios ul li {
+        list-style-type: none;
+        font-family: 'Oswald Light';
+        font-size: 2.5vw;
+    }
+
+    /*Horarios [fin]*/
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 425px) {
     /*Navbar [incio]*/
     .logo-navbar {
-        width: 65vw;
+        width: 70vw;
         margin-right: 4vw;
     }
 
@@ -704,6 +727,41 @@ form label, p {
     }
     /*Home page [fin]*/
     
+    /*Horarios [inicio]*/
+
+    .container-horarios {
+        margin-top: 30px ;
+        border-radius: 10px;
+        border-color: rgb(163, 153, 8);
+        border-width: 0.13vw;
+        border-style: solid;
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .main-horarios h1 {
+        font-size: 8vw;
+    }
+
+    .container-horarios h2 {
+        margin: 70px 0;
+        color: yellow;
+        letter-spacing: 3.5vw;
+        font-size: 8vw;
+    }  
+
+    .container-horarios h3 {
+        font-size: 5vw;
+        padding-bottom: 1.2vw;
+    }
+
+    .container-horarios ul li {
+        font-family: 'Oswald Light';
+        font-size: 4vw;
+    }
+
+    /*Horarios [fin]*/
+
     /*Footer [incio]*/
 
     .footer-container .slogan-footer {
@@ -717,4 +775,10 @@ form label, p {
     }
 
     /*Footer [fin]*/
+}
+
+@media only screen and (max-width: 320px) {
+    .logo-navbar {
+        width: 66vw;
+    }
 }
